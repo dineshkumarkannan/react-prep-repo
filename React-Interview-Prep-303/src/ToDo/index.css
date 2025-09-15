@@ -1,0 +1,94 @@
+.todo-container {
+  width: 50%;
+  margin: 10% auto;
+  padding: 6px;
+  background-color: var(--secondary-bg-color);
+}
+
+.todo-container form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 12px 0;
+  > input {
+    border: 1px solid var(--262626);
+    padding: 10px;
+    width: 40%;
+    font-size: 1rem;
+  }
+
+  > button {
+    padding: 10px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+.todos-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.todos-container > * {
+  height: 2.5rem;
+  background-color: #ae5f5f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8px;
+}
+
+.todos-container .todo-content {
+  display: flex;
+  gap: 4px;
+  font-size: 1.8rem;
+  width: 100%;
+
+  > input[type="checkbox"] {
+    padding: 16px;
+  }
+}
+
+.todo-content > input[type="text"] {
+  padding: 1px;
+  width: inherit;
+  font-size: 1.3rem;
+  margin: 0 4px;
+}
+
+.todos-container button {
+  margin-left: 0;
+  font-size: 1.1rem;
+  padding: 4px;
+}
+
+.text-line-through {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.actions-container {
+  margin: 1rem 0;
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+}
+
+.actions-container button {
+  padding: 0.4rem 0.8rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.actions-container button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}

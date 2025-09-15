@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-color: #262626;
+  --secondary-bg-color: #46211a;
+  --btn-color: #c28a1c;
+  --primary-text: #a43820;
+  --secondary-text: #e7e8d1;
+}
+
+body {
+  background-color: var(--bg-color);
+  font-size: 18px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
