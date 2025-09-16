@@ -1,0 +1,35 @@
+.tab-container {
+  width: inherit;
+  background-color: rgb(250, 255, 255);
+}
+
+.tab-header-container {
+  width: inherit;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
+
+.tab-header-container .tab-header {
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 2rem;
+  letter-spacing: 1px;
+  background-color: rgb(243, 245, 245);
+}
+
+.tab-header-container > button:hover {
+  background-color: rgb(250, 255, 255);
+  cursor: pointer;
+}
+
+.tab-header-container > button.active {
+  background-color: rgb(250, 255, 255);
+}
+
+.tab-header-container {
+  width: inherit;
+  height: inherit;
+}
