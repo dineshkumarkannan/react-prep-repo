@@ -45,6 +45,33 @@ The **Tabs** component provides a way to organize content into separate views wh
 
 ---
 
+## Addon: Carousel
+
+The **Carousel** component displays a set of images in a sliding, scrollable view. It supports keyboard navigation, is responsive, and can show multiple images per slide.
+
+### Carousel Features
+
+- Slide through images with next/prev buttons
+- Configurable images per slide
+- Responsive and touch-friendly
+- Keyboard and screen reader accessible
+- Semantic HTML and ARIA attributes for accessibility
+
+---
+
+## Addon: Pagination
+
+The **Pagination** component divides large sets of data into pages, allowing users to navigate between them efficiently.
+
+### Pagination Features
+
+- Navigate through data pages with next/prev and page numbers
+- Keyboard and screen reader accessible
+- Semantic HTML and ARIA attributes for accessibility
+- Handles dynamic data and edge cases gracefully
+
+---
+
 ### Features (ToDo App)
 
 - Add, edit, and mark todos as completed
@@ -74,7 +101,7 @@ The **Tabs** component provides a way to organize content into separate views wh
 - Proper use of ARIA roles and labels.
 - Semantic HTML for lists, forms, and layout regions.
 - HolyGrailLayout uses `<header>`, `<nav>`, `<main>`, `<aside>`, and `<footer>` for best practices.
-- Accordion and Tabs components use appropriate ARIA attributes and keyboard navigation.
+- Accordion, Tabs, Carousel, and Pagination components use appropriate ARIA attributes and keyboard navigation.
 
 ---
 
@@ -95,6 +122,12 @@ React-Interview-Prep-303/
 │   ├── Tabs/
 │   │   ├── index.tsx
 │   │   └── index.css
+│   ├── Carousel/
+│   │   ├── index.tsx
+│   │   └── index.css
+│   ├── Pagination/
+│   │   ├── index.tsx
+│   │   └── index.css
 │   └── ...
 ├── README.md
 └── package.json
@@ -104,4 +137,4 @@ React-Interview-Prep-303/
 
 ### License
 
-This project is for educational purposes.
+This project
