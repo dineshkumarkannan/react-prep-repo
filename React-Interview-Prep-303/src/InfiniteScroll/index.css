@@ -1,0 +1,19 @@
+.product-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.product__single {
+  margin: 1rem;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  > img {
+    width: 60%;
+    height: 60%;
+  }
+  > p {
+    text-align: center;
+    font-size: 2rem;
+  }
+}

@@ -5,6 +5,8 @@ import Accordion from "./Accordion";
 import Carousel from "./Carousel";
 import Pagination from "./Pagination";
 import PaginationV2 from "./Pagination_v2";
+import InfiniteScroll from "./InfiniteScroll";
+import ConfigColorBoxes from "./ConfigColorBoxes";
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
       {/* <Accordion /> */}
       {/* <Carousel /> */}
       {/* {<Pagination />} */}
-      <PaginationV2 />
+      {/* <PaginationV2 /> */}
+      {/* <InfiniteScroll /> */}
+      <ConfigColorBoxes />
     </>
   );
 }
