@@ -4,6 +4,7 @@ import Tabs from "./Tabs";
 import Accordion from "./Accordion";
 import Carousel from "./Carousel";
 import Pagination from "./Pagination";
+import PaginationV2 from "./Pagination_v2";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <Tabs /> */}
       {/* <Accordion /> */}
       {/* <Carousel /> */}
-      {<Pagination />}
+      {/* {<Pagination />} */}
+      <PaginationV2 />
     </>
   );
 }
