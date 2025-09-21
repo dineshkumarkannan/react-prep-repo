@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+.active {
+  @apply text-cyan-500;
+  @apply underline;
+}
+
+button:hover {
+  @apply cursor-pointer;
+  @apply opacity-70;
+}
