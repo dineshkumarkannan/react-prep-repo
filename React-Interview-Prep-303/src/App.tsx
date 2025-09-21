@@ -7,6 +7,7 @@ import Pagination from "./Pagination";
 import PaginationV2 from "./Pagination_v2";
 import InfiniteScroll from "./InfiniteScroll";
 import ConfigColorBoxes from "./ConfigColorBoxes";
+import PostAndComments from "./PostAndComments";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* {<Pagination />} */}
       {/* <PaginationV2 /> */}
       {/* <InfiniteScroll /> */}
-      <ConfigColorBoxes />
+      {/* <ConfigColorBoxes /> */}
+      <PostAndComments />
     </>
   );
 }
